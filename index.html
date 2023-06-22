@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Apple Pie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/ios-glyphs/50/000000/pie.png"> 
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Apple Pie Timer</h1>
+    </div>
+
+    <div class="inputBlock">
+        <div class="inputField">
+            <label>Minutes</label>
+            <input type="number" class="minutes" placeholder="0" maxlength="4" size="2" id="cookMinutes">
+    </div>
+    <div class="inputField">
+        <label>Seconds</label>
+        <input type="number" class="seconds" placeholder="0" maxlength="4" min="0" size="2" id="cookSeconds">
+    </div>
+</div>
+
+<div>
+    <button class="startButton btn" id="startBtn">Start</button>
+</div>
+
+<div class="block">
+<hr>
+<img src="https://cdn.glitch.com/567a331a-43ca-4caf-8f45-47bd520d6589%2Ficons8-coming-soon-100.png?v=1630615310239" alt="icon" width="40px" height="40px">
+<hr>
+</div>
+
+<div id="container-countdown" class="center column">
+    <p id="countdown">0: 00</p>
+</div>
+<div class="link">
+    <a class="home" href="#" target="_blank"><img src="https://cdn.glitch.com/567a331a-43ca-4caf-8f45-47bd520d6589%2Fhomeiconwhite.png?v=1630615394772" alt="aysel abbasaliyeva website" width="35px"></a>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
